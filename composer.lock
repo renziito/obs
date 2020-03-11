@@ -1,0 +1,163 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "c1179da448b6381190655a47bc8a37ac",
+    "packages": [
+        {
+            "name": "rytoex/obs-log-analyzer",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/RytoEX/obs-log-analyzer.git",
+                "reference": "4d49eb5b3ef540aa2956e2eb7c1eed24dd53dbca"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/RytoEX/obs-log-analyzer/zipball/4d49eb5b3ef540aa2956e2eb7c1eed24dd53dbca",
+                "reference": "4d49eb5b3ef540aa2956e2eb7c1eed24dd53dbca",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "RytoEX\\OBS\\LogAnalyzer\\": "src/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "RytoEX\\OBS\\LogAnalyzer\\Tests\\": "tests/"
+                }
+            },
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Ryan Foster",
+                    "email": "RytoEX@gmail.com"
+                }
+            ],
+            "description": "A log analyzer backend for OBS Studio logs",
+            "support": {
+                "source": "https://github.com/RytoEX/obs-log-analyzer/tree/master",
+                "issues": "https://github.com/RytoEX/obs-log-analyzer/issues"
+            },
+            "time": "2018-10-09T19:09:05+00:00"
+        },
+        {
+            "name": "yiisoft/yii",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yiisoft/yii.git",
+                "reference": "d01658e47d799e5778608982a45bfcf2d4062a17"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yiisoft/yii/zipball/d01658e47d799e5778608982a45bfcf2d4062a17",
+                "reference": "d01658e47d799e5778608982a45bfcf2d4062a17",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.1.0"
+            },
+            "require-dev": {
+                "pear/archive_tar": "~1.4.6",
+                "phing/phing": "2.*",
+                "phpseclib/mcrypt_compat": "^1.0",
+                "phpunit/phpunit": "~4.8.34",
+                "phpunit/phpunit-selenium": "~1.4.0"
+            },
+            "suggest": {
+                "ext-mcrypt": "Required by encrypt and decrypt methods of CSecurityManager",
+                "phpseclib/mcrypt_compat": "To provide mcrypt polyfill when extension is unavailable"
+            },
+            "bin": [
+                "framework/yiic"
+            ],
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "framework/YiiBase.php",
+                    "framework/yii.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Qiang Xue",
+                    "email": "qiang.xue@gmail.com",
+                    "homepage": "http://www.yiiframework.com/",
+                    "role": "Founder and project lead"
+                },
+                {
+                    "name": "Alexander Makarov",
+                    "email": "sam@rmcreative.ru",
+                    "homepage": "http://rmcreative.ru/",
+                    "role": "Core framework development"
+                },
+                {
+                    "name": "Maurizio Domba",
+                    "homepage": "http://mdomba.info/",
+                    "role": "Core framework development"
+                },
+                {
+                    "name": "Carsten Brandt",
+                    "email": "mail@cebe.cc",
+                    "homepage": "http://cebe.cc/",
+                    "role": "Core framework development"
+                },
+                {
+                    "name": "Timur Ruziev",
+                    "email": "resurtm@gmail.com",
+                    "homepage": "http://resurtm.com/",
+                    "role": "Core framework development"
+                },
+                {
+                    "name": "Paul Klimov",
+                    "email": "klimov.paul@gmail.com",
+                    "role": "Core framework development"
+                },
+                {
+                    "name": "Wei Zhuo",
+                    "email": "weizhuo@gmail.com",
+                    "role": "Project site maintenance and development"
+                },
+                {
+                    "name": "Sebastián Thierer",
+                    "email": "sebas@artfos.com",
+                    "role": "Component development"
+                },
+                {
+                    "name": "Jeffrey Winesett",
+                    "email": "jefftulsa@gmail.com",
+                    "role": "Documentation and marketing"
+                }
+            ],
+            "description": "Yii Web Programming Framework",
+            "homepage": "http://www.yiiframework.com/",
+            "keywords": [
+                "framework",
+                "yii"
+            ],
+            "time": "2020-01-28T09:04:53+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "yiisoft/yii": 20,
+        "rytoex/obs-log-analyzer": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

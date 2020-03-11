@@ -1,0 +1,22 @@
+{
+    "name": "renziito/obs",
+    "description": "Project for obs analyzer",
+    "type": "project",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/RytoEX/obs-log-analyzer"
+        }
+    ],
+    "require": {
+        "yiisoft/yii": "dev-master",
+        "rytoex/obs-log-analyzer": "dev-master"
+    },
+    "authors": [
+        {
+            "name": "Renziito",
+            "email": "sepia.aki@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
